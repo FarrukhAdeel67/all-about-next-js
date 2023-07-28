@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: black;
+  background-color: #ffffff;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkTag {
+  background-color: inherit;
+}
+.navTag {
+  padding: 2rem;
+  background-color: rgb(112, 69, 16);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form {
+  background-color: inherit;
+}
+button {
+  background-color: lightblue;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+}
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.gp-4 {
+  gap: 1rem;
+}
